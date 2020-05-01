@@ -17,8 +17,8 @@ int main() {
     double percentCorrect, missed=0,correctlyAnswered;
 
     // Open files
-    correctAnswers.open("C:/Users/Andrea Hayes/source/repos/Ch7Num11ExamGrader/CorrectAnswers.txt"); 
-    studentAnswers.open("C:/Users/Andrea Hayes/source/repos/Ch7Num11ExamGrader/StudentAnswers.txt");
+    correctAnswers.open("../CorrectAnswers.txt"); 
+    studentAnswers.open("../StudentAnswers.txt");
 
     // If files do not open
     if (!correctAnswers || !studentAnswers) 
